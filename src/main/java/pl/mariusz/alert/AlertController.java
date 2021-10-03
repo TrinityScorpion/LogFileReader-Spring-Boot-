@@ -23,7 +23,7 @@ public class AlertController {
 
     @RequestMapping("/")
     @ResponseBody
-    public void getAdvice(){
+    public void createAlert(){
 //        JFrame parentFrame = new JFrame();
         List<String> list = new ArrayList<String>();
         List<Task> taskList = new ArrayList<Task>();
